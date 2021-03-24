@@ -12,4 +12,15 @@
     <ItemGroup>
         <PackageReference Include="Xamarin.Forms" Version="4.4.0.991640" />
     </ItemGroup>
+
+    <ItemGroup>
+      <Compile Update="ExercisePages\ExercisePage.xaml.cs">
+        <DependentUpon>ExercisePage.xaml</DependentUpon>
+        <SubType>Code</SubType>
+      </Compile>
+      <Compile Update="ExercisePages\TrainingProgramPage.xaml.cs">
+        <DependentUpon>TrainingProgramPage.xaml</DependentUpon>
+        <SubType>Code</SubType>
+      </Compile>
+    </ItemGroup>
 </Project>
